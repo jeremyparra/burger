@@ -11,79 +11,76 @@ body {
     height: 900px;
     font-family: 'Wendy One', sans-serif;
   }
+
+.mains {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#order-box {
+  width: 500px;
+  height: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
+  font-size: 24px;
+  color: #F70D1A;
+  text-shadow: 1px 1px black;
+  border: double 5px #F70D1A;
+  }
   
-  #top-bar {
-    margin-top: 28px;
+.items{
+  color: #F70D1A;
+  text-shadow: 1px 1px black;
+  font-size: 18px;
   }
 
-  .spacing-reset {
-    padding: 0;
-    margin: 0;
-    border: 0;
-  }
   
-  .list-reset {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    border: 0;
-  }
+#text-enter-button {
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
   
-  @media (min-width: 1200px) {
-    .container {
-      width: 990px;
-    }
-  }
-  
-  @media (min-width: 992px) {
-    .container {
-      width: 990px;
-    }
-  }
-  
-  .enter_section {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  
-  #enter_text {
-    width: 400px;
-    height: 80px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: auto;
-    font-size: 38px;
-  }
-  
-  .buttons {
-    color: #FDEE00;
-    background: #F70D1A;
-    border-radius: 5px;
-    border: 4px double #FDEE00;
-    position: relative;
-    bottom: 28px;
-    left: 50px;
-    }
+h1 {
+  color: #f30;
+  text-shadow: 1px 1px black;
+}
+
+#burger-image{
+  height: 300px;
+  position: relative;
+  bottom: 1px;    
+  right: 1px;
+}
+
+.buttons {
+  background:#f70d1a;
+  border:8px double #fdee00;
+  border-radius: 30px;
+  padding:2px 12px;
+  color:#fdee00;
+  text-shadow: 1px 1px black;
+  position: relative;
+}
     
-    .buttons:hover {
-        text-transform: uppercase;
-        background: #F76068;
-        -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-        box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-        transition: all 0.4s ease 0s;
-        }
-  
-  #text-enter-button {
-    margin-top: 10px;
-    margin-bottom: 18px;
-  }
-  
-  h1 {
-    color: #f30;
-  }
+.buttons:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
 
+.devour{
+  bottom: 28px;
+  right: 10px;
+}
+
+#order-button{
+  margin-top: 10px;
+}
+
+#order-window{
+  margin-top: 25px;
+}
+ 
 
 
   
